@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(/images/fon.jpeg);
+    font-family: 'Anton', sans-serif;
+}
+
+.h1 {
+    color: #ffff;
+    position: absolute;
+    left: 800px;
+    font-size: 220px;
+    top: 400px;
+    text-shadow: 0px 0px 24px rgb(16, 15, 15);
+
+}
+
+
+.logo {
+    position: absolute;
+    width: 90px;
+    top: 40px;
+}
+
+.header ul {
+    display: flex;
+    padding: 30px;
+    padding-left: 100px;
+
+}
+
+.header ul li {
+    list-style: none;
+    padding: 20px;
+    color: #ed3833;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 24px rgba(150, 150, 150, 1);
+}
+
+.header ul li a {
+    color: #ed3833;
+}
+
+.jordan {
+    position: absolute;
+    left: 550px;
+    top: 90px;
+    width: 650px;
+}
+
+.content h1 {
+    color: white;
+    font-size: 150px;
+    text-decoration: dotted;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 420px;
+    top: 180px;
+    text-shadow: 0px 0px 24px rgb(15, 6, 6);
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+
+}
+
+.red {
+    width: 300px;
+    height: 380px;
+    position: absolute;
+    left: 850px;
+    border-radius: 15%;
+    top: -160px;
+}
+
+.red1 {
+    border-radius: 15px;
+    position: absolute;
+    left: -10px;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+.black {
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    left: -90px;
+    border-radius: 15%;
+    top: 200px;
+}
+
+.h2 {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 220px;
+    text-shadow: 0px 0px 24px rgb(184, 36, 36);
+
+} 
+
+.card {
+    z-index: auto;
+    position: absolute;
+    left: 900px;
+}
+
